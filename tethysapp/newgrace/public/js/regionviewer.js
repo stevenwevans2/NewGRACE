@@ -273,7 +273,7 @@ for (var chartnumber=0;chartnumber<4;chartnumber++)
     };
 
     charturl="http://localhost:8080/thredds/dodsC/testAll/grace/" + region +"/" + region+ charttype +"Anomaly.nc.ascii?";
-
+        //
     //get the data from the charturl for the time and lwe_thickness attributes
       var xhttp = new XMLHttpRequest();
       xhttp.onreadystatechange = function() {
